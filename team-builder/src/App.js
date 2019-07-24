@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className='App'> 
     {teamMembersList}
-    <Form> </Form>
+    <Form teamMembersList={teamMembersList} setTeamMemberList={setTeamMemberList}> </Form>
     
     </div>
   )

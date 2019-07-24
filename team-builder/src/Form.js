@@ -4,6 +4,7 @@ const Form = () => {
     console.log('the form was called');
     return (
         <div className='form'> 
+        Form
             {/* input for name */}
             <div className='form-field'>
                 <label htmlFor="nameInput"> Name: </label>
